@@ -18,6 +18,8 @@ import com.bodner67.BarcodeManager.BarcodeManagerActivity;
 import com.bodner67.BarcodeManager.Barcode;
 import com.bodner67.BarcodeManager.DecodeBarcode;
 
+// git test text
+
 
 public class NewBarcodeActivity extends Activity   {
     		
