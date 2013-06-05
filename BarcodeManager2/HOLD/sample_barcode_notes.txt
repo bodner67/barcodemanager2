@@ -1,0 +1,15 @@
+Sample barcode notes:
+
+
+Kelloggs_Crispix1721.png	has 30 lines, with 1-1-1 starts
+TCC_img_1209_a.png	has 40 black lines, no 1-1-1 start
+
+
+OLD list_barcode.xml:
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:textSize="16sp" >
+</TextView>

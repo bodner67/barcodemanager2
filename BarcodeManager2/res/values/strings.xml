@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Barcode<i>Manager...the miracle time saver!</i></string>
+    <string name="app_name">Barcode<i>Manager</i></string>
+    <string name="app_activity_NewBarcode">New barcode</string>
+    <string name="app_activity_EditBarcode">Edit barcode</string>
+	<string name="app_activity_ViewBarcode">Barcode<i>Manager</i></string>
+	<string name="app_activity_CameraPreview">CameraPreview</string>
+	<string name="app_activity_CameraView">CameraView</string>
+	<string name="app_activity_WebView">WebView</string>
+	<string name="app_activity_DrawBarcode">BarcodeManager</string>
+	<string name="app_activity_Settings">Settings</string>
+	<string name="new_barcode">Enter new barcode</string>
+    <string name="barcode1">Troy Community Center</string>
+    <string name="barcode2">Ballys</string>
+    <string name="barcode3">Kroger</string>
+    <string name="take_picture">Using your cell phone camera take a closeup picture of the new barcode and save it to phone memory.</string>
+   	<string name="take_picture2">Take a picture of your barcode.</string>
+    <string name="barcode_name">NAME:</string>
+    <string name="barcode_number">NUMBER:</string>
+    <string name="blank"> </string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="NEW_BARCODE">(ENTER NEW BARCODE)</string>
+    <string name="add_barcode">Add barcode</string>
+    <string name="camera_alert">camera alert</string>
+	<string name="switch_cam">Switch Camera</string> 
+   	<string name="no_notes">empty</string>
+   	<string name="enter_12barcode">enter 12-number barcode</string>
+   	<string name="enter_name">enter name</string>
+   	<string name="menu_edit">Edit</string>
+   	<string name="menu_delete">Delete</string>
+   	<string name="menu_settings">Settings</string>
+   	<string name="menu_web">Web</string>
+</resources>

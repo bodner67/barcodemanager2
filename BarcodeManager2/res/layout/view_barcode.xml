@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:onClick="addItems"
+        android:shadowColor="#001111"
+        android:shadowDx="1.2"
+        android:shadowDy="1.2"
+        android:shadowRadius="1.8"
+        android:text="BARCODE NAME"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#d0d0f0" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:src="@drawable/icon_barcode_snip7" />
+
+    <Space
+        android:id="@+id/Space1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical" />
+
+</LinearLayout>
+
+<!--         android:layout_gravity="fill"    -->

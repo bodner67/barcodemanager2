@@ -1,0 +1,25 @@
+"Ballys",
+"Troy Community Center", 
+"Troy Library",
+"Birmingham Library", 
+"Kroger", "Sears",
+"Target", 
+"Mobil",
+"Antons", 
+"Borders", 
+"Club Med", 
+"Marinelli's", 
+"JimmyJohn's", 
+"BigBoys",
+"Einstein Bagels", 
+"Frank's", 
+"Vic Tanny", 
+"Saturn", 
+"A&P", 
+"NorthWestAirlines", 
+
+// String[] initialBarcodes = getResources().getStringArray(R.array.initialBarcodes_array);
+// replace above: setListAdapter(new ArrayAdapter<String>(this, R.layout.list_item, initialBarcodes));
+
+// or  InputStream is = this.getResources().openRawResource(R.drawable.my_data);
+	

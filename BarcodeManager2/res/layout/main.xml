@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" 
+android:textSize="50dip" 
+android:gravity="bottom" 
+android:layout_height="fill_parent" 
+android:layout_width="fill_parent" 
+xmlns:android="http://schemas.android.com/apk/res/android"> 
+
+<ListView android:layout_height="fill_parent" 
+    android:layout_width="fill_parent" 
+    android:paddingBottom="40dp" 
+    android:drawSelectorOnTop="false" 
+    android:layout_weight="0.5" 
+    android:id="@android:id/list"/> 
+    
+    <Button android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:id="@+id/addBtn" 
+        android:textColor="#f0f0f0" 
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:text="@string/add_barcode" 
+        android:shadowRadius="1.5" 
+        android:shadowDy="1.2" 
+        android:shadowDx="1." 
+        android:shadowColor="#000000" 
+        android:onClick="addItems"/> 
+</LinearLayout>
+
+
+<!-- 
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+	android:textSize="50dip"
+    android:orientation="vertical" >
+
+	<ListView
+	    android:id="@android:id/list"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_weight="1"
+	    android:paddingBottom="30dp" 
+	    android:drawSelectorOnTop="false" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dip"
+        android:onClick="addItems"
+        android:text="@string/add_barcode"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#f0f0f0"
+        android:shadowColor="#000000"
+        android:shadowDx="1."
+        android:shadowDy="1.2"
+        android:shadowRadius="1.5" />
+
+</LinearLayout>
+-->
+
+
+<!-- ALT:   TextView below a ListView:
+http://www.mikeplate.com/2010/01/21/show-a-context-menu-for-long-clicks-in-an-android-listview/
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  >
+  <ListView
+    android:id="@+id/list"
+    android:layout_width="fill_parent"
+    android:layout_height="0px"
+    android:layout_weight="1"
+    />
+  <TextView
+    android:id="@+id/footer"
+    android:layout_width="fill_parent"
+    android:layout_height="60dip"
+    android:text="@string/footer"
+    android:padding="4dip"
+    android:background="#FF666666"
+    />
+</LinearLayout>
+
+
+
+MY OLD:
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+	android:textSize="50dip"
+    android:orientation="vertical" >
+
+	<ListView
+	    android:id="@android:id/list"
+	    android:layout_width="fill_parent"
+	    android:layout_height="0px"
+	    android:layout_weight="1"
+	    android:drawSelectorOnTop="false" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addItems"
+        android:shadowColor="#000000"
+        android:shadowDx="1."
+        android:shadowDy="1.2"
+        android:shadowRadius="1.5"
+        android:text="@string/add_barcode"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#f0f0f0" />
+    
+</LinearLayout>
+
+
+-->

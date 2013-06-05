@@ -1,0 +1,51 @@
+BarcodeManager Todo:
+--------------------------------
+
+ - rotate pic 90 deg & retry decode
+
+- turn off screen rotation during barcode display
+
+- ZXING has open source for barcode software
+
+- Start emulator with options:  -wipe-data
+
+
+------------------------------------------------------------------------------------------------------------
+Evolution of names:
+	BarCodeDisplayer2
+	BarCodeShow
+	BarCodePASS
+	BarCodeDRAW
+	BarcodeList
+	BarcodeManager                   
+
+-------------------------------------------------------------------------------------------------------------
+Activity tree:
+
+		 BarcodeManager
+          -----------------------------------------------------------------------
+          |		          |			        |
+DrawBarcode	NewBarcode		Webview
+		          |
+		    Camera	
+
+-------------------------------------------------------------------------------------------------------------
+
+BarcodeManager is targeted for minSDK version 8.
+
+RunKeeper supports Android 2.0 (version 7) & above.
+
+---------------------------------------------------------------------------------------------------------------
+BarcodeManager.apk			10.3 Mb
+
+BarCodePASS Source code:	 	 # lines
+		              2012:	Mar18	Mar28
+BarCodePASSActivity		370	320
+NewBarCode			215	190
+DrawBarcodeActivity			  65	  75
+DrawBarcodeRenderer		378	390
+Barcode				340	  70
+DecodeBarcode				405
+
+			Total      1300           1400-------------------------------------------------------------------------------------------------------------------
+
