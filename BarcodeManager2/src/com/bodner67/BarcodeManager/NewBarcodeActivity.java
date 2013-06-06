@@ -20,6 +20,7 @@ import com.bodner67.BarcodeManager.DecodeBarcode;
 
 // git test text
 
+// git test 2a
 
 public class NewBarcodeActivity extends Activity   {
     		
